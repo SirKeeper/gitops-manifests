@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: gitops-app
-          image: ghcr.io/SirKeeper/gitops-app:latest
+          image: ghcr.io/sirkeeper/gitops-app:latest
           ports:
             - containerPort: 8080
 ---
